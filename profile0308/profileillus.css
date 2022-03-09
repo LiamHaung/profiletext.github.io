@@ -1,0 +1,122 @@
+* {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 120px;
+  background: rgb(36, 120, 255, 0.5);
+  z-index: 100;
+  text-align: center;
+  top: 0;
+}
+.button li:hover {
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid rgb(0, 0, 0); */
+  color: rgb(36, 120, 255);
+  border-radius: 5%;
+}
+.button li:hover a {
+  color: rgb(36, 120, 255);
+}
+.button > ul {
+  list-style: none;
+  display: flex;
+  /* border: 1px solid red; */
+}
+.button a {
+  text-decoration: none;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+.button li {
+  padding-right: 12px;
+  padding-left: 12px;
+  /* border: 1px solid red; */
+}
+.navbar {
+  background-color: rgb(36, 120, 255);
+  /* border: 1px solid red; */
+  width: 38%;
+  border-bottom-left-radius: 61px;
+  border-bottom-right-radius: 61px;
+  top: 0;
+  height: 120px;
+}
+.logoBox img {
+  width: 26%;
+  /* border: 1px solid red; */
+  padding-bottom: 20px;
+}
+/* 以上navbar */
+.carousel-item {
+  width: 100%;
+  align-content: center;
+}
+
+.carousel {
+  margin-top: 0px;
+}
+/* mainbg */
+.carousel::before {
+  content: "這是個關於家庭關係修復的故事";
+  /* border: 5px solid rgba(255, 255, 255, 0.5); */
+  background-color: rgba(66, 66, 66, 0.5);
+  top: 0%;
+  left: 72%;
+  position: absolute;
+  width: 320px;
+  height: 100px;
+  z-index: 50;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 900;
+}
+.btn1 {
+  background-color: rgb(124, 196, 255);
+  color: rgb(255, 255, 255);
+  border: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  width: 500px;
+}
+.btn1:hover {
+  background-color: rgb(36, 120, 255);
+  font-weight: 700;
+  border: 0;
+}
+.btn-group {
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* width: 100%; */
+  /* width: 1200px; */
+  margin-top: 120px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+}
+.cardRowP2 {
+  display: flex;
+}
+.cardRowPg3 {
+  display: flex;
+}
