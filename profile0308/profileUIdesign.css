@@ -1,0 +1,128 @@
+* {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.logoHome img {
+  width: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbarTop {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 165px;
+  background: radial-gradient(
+    circle at center,
+    rgb(67, 180, 255),
+    rgb(36, 120, 255),
+    rgb(8, 83, 204)
+  );
+  padding-bottom: 150px;
+}
+.navBtn {
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0;
+  background-color: rgb(113, 198, 255);
+  border-radius: 50px;
+}
+.navbar-nav {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 24px;
+  /* border: 1px solid red; */
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.nav-link:hover {
+  color: rgb(36, 120, 255);
+  /* background-color: #fff; */
+  border-radius: 15px;
+  font-weight: 1000;
+}
+/* 以上navbar */
+.carousel-item {
+  width: 100%;
+  align-content: center;
+}
+.carousel {
+  margin-top: 120px;
+}
+/* mainbg */
+.bgBox {
+  height: 500px;
+  background-color: rgb(36, 120, 255);
+}
+.mainBackground {
+  /* border: 1px solid red; */
+  z-index: -20;
+  position: relative;
+}
+.mainBg {
+  /* text-align: center; */
+  overflow: hidden;
+}
+.bgBox h1 {
+  padding-top: 120px;
+  color: rgb(255, 255, 255);
+}
+.title1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.mainBackground {
+  margin-top: 185px;
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid blue; */
+  background-color: #ff9900;
+  overflow: hidden;
+  position: relative;
+}
+.mainBackground::after {
+  content: "";
+  background-image: url(img/藏壽司app2.gif);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: #ff9900;
+  width: 30%;
+  height: 150%;
+  background-position: center;
+  /* border: 1px solid red; */
+  background-size: 80%;
+  background-repeat: no-repeat;
+  /* background-image: cover; */
+}
+
+.video1 {
+  /* border: 1px solid red; */
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col1 {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* background-color: #ff9900; */
+}

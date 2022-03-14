@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiamUI設計</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="profileUIdesign.css" />
+  </head>
+  <body>
+    <!-- 導覽列 -->
+    <div class="header" id="pageillustration">
+      <nav
+        class="navbarTop navbar-expand-lg"
+        style="background-color: rgb(36, 120, 255)"
+      >
+        <div class="logoHome">
+          <a href="Liamprofile.html"><img src="img/logo.png" alt="" /></a>
+        </div>
+        <button class="navBtn">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Page2.html"
+                >插畫作品</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page3.html">Ui設計</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">展場視覺</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">個人故事</a>
+            </li>
+          </ul>
+        </button>
+      </nav>
+    </div>
+    <!-- 導覽列 -->
+    <div class="container">
+      <div class="mainBackground"></div>
+      <div class="uiWorksRow">
+        <div class="col1">
+          <img src="img/page3img/0314new - 複製.gif" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app1.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app2.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app3.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app4.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app5.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app6.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app7.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app8.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app9.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app10.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app11.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app12.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/集點.gif.gif" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app14.png" width="100%" alt="" />
+        </div>
+        <div class="col1">
+          <img src="img/page3img/app15.png" width="100%" alt="" />
+        </div>
+      </div>
+      <div class="uiWorksRow">
+        <div class="vedioBox">
+          <!-- <iframe
+            src="https://player.vimeo.com/video/685117723?h=757cfbb58a"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            style="
+              width: 1200px;
+              height: 1200px;
+              margin-top: -250px;
+              margin-left: 50px;
+            "
+          ></iframe> -->
+        </div>
+      </div>
+      <!-- 下面div是container -->
+    </div>
+    <!-- --bootstrap-- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".cardTitleA").click(function () {
+          $(".card-textA").fadeToggle();
+        });
+        $(".cardTitleB").click(function () {
+          $(".card-textB").fadeToggle();
+        });
+        $(".card-titleJsA ").click(function () {
+          $(".card-infoA").fadeToggle();
+        });
+        $(".card-titleJsB ").click(function () {
+          $(".card-infoB").fadeToggle();
+        });
+        $(".card-titleJsC ").click(function () {
+          $(".card-infoC").fadeToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
