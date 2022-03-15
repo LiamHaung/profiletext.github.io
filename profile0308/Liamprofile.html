@@ -43,28 +43,31 @@
 
     <div class="container">
           <!-- nav -->
-    <div class="header">
-       <nav class="navbarTop navbar-expand-lg"style="background-color: rgb(36, 120, 255);">
-                   <div class="logoHome">
-                     <a href="Liamprofile.html"><img src="img/logo.png" alt="" /></a>
-                   </div>
-              <button class="navBtn">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Page2.html">插畫作品</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="page3.html">UI設計</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">展場視覺</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">個人故事</a>
-                  </li>
-                </ul>
-              </button>
-       </nav>
+    <div class="header" id="pageillustration">
+      <nav
+        class="navbarTop navbar-expand-lg"
+        style="background-color: rgb(36, 120, 255)"
+      >
+        <div class="logoHome">
+          <a href="Liamprofile.html"><img src="img/logo_logo.png" alt="" /></a>
+        </div>
+        <button class="navBtn">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Page2.html"
+                >平面作品</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page3.html">Ui設計</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="page4.html">個人故事</a>
+            </li>
+          </ul>
+        </button>
+      </nav>
     </div>
     <!-- 導覽列 -->
       <!-- main bg -->
@@ -86,46 +89,51 @@
             <!-- 幻燈片 -->
       <div class="mainBackground" style="margin-top: 10px;">
         <div class="mainAnimate">
-        <img src="img/universe.png" width="100%"  alt="">
-        <img src="img/作品集插圖_隕石.png" width="8%" class="star1" alt="">
-        <img src="img/作品集插圖_行星.png" width="12%" class="star2" alt="">
-        <img src="img/作品集插圖_衛星.png" width="8%" class="star3" alt="" style="opacity: 0.9;">
-        <img src="img/作品集插圖_shine1.png" width="30%" class="shine1" alt="">
-        <img src="img/作品集插圖_shine1.png" width="30%" class="shine4" alt="">
-        <img src="img/作品集插圖_shine2.png" width="30%" class="shine2" alt="">
-        <img src="img/作品集插圖_shine2.png" width="10%" class="shine3" alt="">
-        <img src="img/作品集插圖_火箭.png" width="40%" class="rocket" alt="">
-        <img src="img/作品集插圖_太空人1.png" width="30%" class="man1" alt="">
-        <img src="img/作品集插圖_太空人2.png" width="30%" class="man2" alt="">
+        <img src="homepage/首頁_底圖.png" width="100%"  alt="">
+        <img src="homepage/首頁_隕石.png" width="8%" class="star1" alt="">
+        <img src="homepage/首頁_行星.png" width="12%" class="star2" alt="">
+        <img src="homepage/首頁_衛星.png" width="8%" class="star3" alt="" style="opacity: 0.9;">
+        <img src="homepage/首頁_shine1.png" width="30%" class="shine1" alt="">
+        <img src="homepage/首頁_shine1.png" width="30%" class="shine4" alt="">
+        <img src="homepage/首頁_shine2.png" width="30%" class="shine2" alt="">
+        <img src="homepage/首頁_shine2.png" width="10%" class="shine3" alt="">
+        <img src="homepage/首頁_火箭.png" width="40%" class="rocket" alt="">
+        <img src="homepage/首頁_太空人1.png" width="30%" class="man1" alt="">
+        <img src="homepage/首頁_太空人2.png" width="30%" class="man2" alt="">
         </div>
       </div>
       <!-- 幻燈片 -->
       <!-- card -->
       <div class="cardRow">
         <div class="card cardA" id="illustration" style="width: 33.3%">
-          <img
+          <a href="Page2.html">
+            <img
             src="img/p1_p1一家四口封面.png"
             style="height: 300px"
             class="card-img-top"
             alt="..."
           />
+          </a>
+
           <div class="card-body "  style="text-align: center;">
             <div class="infoTextContent" >
-            <h5 class="card-title" style="text-align: center;">插畫設計</h5>
+            <h5 class="card-title" style="text-align: center;">平面設計</h5>
             <p class="card-text" style="color: gray;font-weight: 700;letter-spacing: 1px;text-align:left;">
-            在插畫的領域裡，填色、勾勒、描繪出腦中的想法 握住每次機會，用畫筆帶給觀者新的視覺體驗。
+            在插畫的領域裡，填色、勾勒、描繪出腦中的想法，把握住每次機會，帶給觀者新的視覺體驗。
             </p>
             <a href="Page2.html" class="cardBtn" > <span> View more</span></a>
             </div>
           </div>
         </div>
         <div class="card cardB" style="width: 33.3%">
-          <img
-            src="img/mainIllustarion1.png"
+          <a href="page3.html">
+            <img
+            src="img/首頁_ui.png"
             style="height: 300px"
             class="card-img-top"
             alt="..."
           />
+          </a>
           <div class="card-body"style="text-align: center;">
             <div class="infoTextContent" >
             <h5 class="card-title" style="text-align: center;">UI設計</h5>
@@ -137,17 +145,19 @@
           </div>
         </div>
         <div class="card cardC" style="width: 33.3%">
-          <img
-            src="img/worksOne3.jpg"
+          <a  href="page4.html" >
+            <img
+            src="img/首頁_portflio.png"
             style="height: 300px"
             class="card-img-top"
             alt="..."
           />
+          </a>
           <div class="card-body"style="text-align: center;">
             <div class="infoTextContent" >
-            <h5 class="card-title" style="text-align: center;">展場視覺</h5>
+            <h5 class="card-title" style="text-align: center;">個人故事</h5>
             <p class="card-text" style="color: gray;font-weight: 700;letter-spacing: 1px;text-align:left;">
-            整個展覽館裡最耀眼的一顆星，符合企業識別並展現個性，抓住業主的胃。
+            關於我，學經歷，自我探索
             </p>
             <a href="Page2.html" class="cardBtn" > <span> View more</span></a>
             </div>
@@ -158,8 +168,11 @@
       <!-- 下面div是container -->
     </div>
     <!-- footer -->
-    <div class="footer" width:100% style="background-color: rgb(189, 197, 207);"> 
-      <h6 style="text-align: center;color:#fff;padding-top: 80px;padding-bottom: 60px;">-Liam Haung-</h6>
+    <div class="footer" width:100% style="background-color: rgb(189, 197, 207);text-decoration: none;"> 
+      <h5 style="text-align: center;color:#fff;padding-top: 80px;padding-bottom: 10px;">-Liam Haung-</h5>
+      <h3  style="text-align: center;color:#fff;padding-bottom: 60px;text-decoration: none;"><div class="box" style="width: 100px;;height: 100px;border: 1px solid #fff;border-radius: 50px;" ><a href="mailto:liamkont0215@gmail.com">
+  <img src="img/mail.png"  width="60%" style="top:30%;" class="mail" alt="">
+</a></div></h3>
     </div>
     <!-- --bootstrap-- -->
     <script

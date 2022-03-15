@@ -12,7 +12,7 @@
 }
 
 .logoHome img {
-  width: 8%;
+  width: 6%;
   left: 50%;
   transform: translateX(-50%);
   padding-top: 20px;
@@ -340,4 +340,86 @@
   padding-right: 20px;
   padding-left: 20px;
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  a {
+    font-size: 20px;
+  }
+  p {
+    font-size: 9px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  .box {
+    width: 50%;
+  }
+  .mail {
+    width: 50%;
+  }
+  .header {
+    width: 50%;
+  }
+  .footer {
+    width: 100%;
+    height: 10%;
+  }
+  .logoHome {
+    width: 100%;
+  }
+  .navbar-nav {
+    padding: 0;
+  }
+  .nav-item {
+    width: 15%;
+    /* border: 1px solid orange; */
+    font-size: 110px;
+  }
+  .nav-link {
+    /* border: 1px solid red; */
+    height: 25px;
+  }
+  .navBtn {
+    width: 200%;
+    /* height: 20%; */
+    background-color: rgb(149, 213, 255);
+  }
+  .nav-link {
+    /* width: 0%; */
+  }
+  .h1 {
+    width: 20%;
+  }
+  .card {
+    width: 200%;
+  }
+  .mainBackground::before,
+  .mainBackground::after {
+    display: none;
+  }
+  .cardRow {
+    left: 0;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .title1 {
+    font-size: 20px;
+  }
+  .card-img-top {
+    left: 0%;
+    align-content: center;
+    width: 300%;
+    /* border: 1px solid blue; */
+  }
+  .infoTextContent {
+    text-align: center;
+    width: 400%;
+    /* border: 1px solid yellow; */
+  }
 }
