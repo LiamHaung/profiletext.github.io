@@ -1,0 +1,219 @@
+* {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  /* border: 1px solid rgb(255, 0, 0); */
+  /* height: 10%; */
+}
+.logoBox {
+  /* border: 1px solid red; */
+  padding-bottom: 15px;
+}
+.navbarTop {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  /* height: 60px; */
+  background: radial-gradient(
+    circle at center,
+    rgb(67, 180, 255),
+    rgb(36, 120, 255),
+    rgb(8, 83, 204)
+  );
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.navBtn {
+  width: 30%;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  border: 0;
+  background-color: rgb(113, 198, 255);
+  border-radius: 50px;
+  /* border: 1px solid red; */
+}
+.navbar-nav {
+  padding-right: 4px;
+  padding-left: 4px;
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  /* border-radius: 15px; */
+}
+.nav-link:hover {
+  color: rgb(36, 120, 255);
+  /* background-color: #fff; */
+  border-radius: 15px;
+  font-weight: 1000;
+}
+/* 以上navbar */
+.carousel-item {
+  width: 100%;
+  align-content: center;
+}
+.carousel {
+  margin-top: 120px;
+}
+/* mainbg */
+.bgBox {
+  height: 500px;
+  background-color: rgb(36, 120, 255);
+}
+.mainBackground {
+  /* border: 1px solid red; */
+  z-index: -20;
+  position: relative;
+}
+.mainBg {
+  /* text-align: center; */
+  overflow: hidden;
+}
+.bgBox h1 {
+  padding-top: 120px;
+  color: rgb(255, 255, 255);
+}
+.title1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.mainBackground {
+  margin-top: 116px;
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid blue; */
+  background-color: rgb(36, 120, 255);
+  overflow: hidden;
+  position: relative;
+}
+.mainBackground::after {
+  content: "";
+  background-image: url(img/page3img/壽司郎2.gif);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: rgb(36, 120, 255);
+  width: 28%;
+  height: 150%;
+  background-position: center;
+  /* border: 1px solid red; */
+  background-size: 80%;
+  background-repeat: no-repeat;
+  /* background-image: cover; */
+}
+
+.video1 {
+  /* border: 1px solid red; */
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col1 {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  /* background-color: #ff9900; */
+}
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  a {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 9px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  .box {
+    width: 50%;
+  }
+  .mail {
+    width: 50%;
+  }
+  .header {
+    width: 50%;
+  }
+  .footer {
+    width: 100%;
+    height: 10%;
+  }
+  .logoHome {
+    width: 100%;
+  }
+  .navbar-nav {
+    padding: 0;
+  }
+  .nav-item {
+    width: 15%;
+    /* border: 1px solid orange; */
+    font-size: 110px;
+  }
+  .nav-link {
+    /* border: 1px solid red; */
+    height: 25px;
+  }
+  .navBtn {
+    width: 200%;
+    /* height: 20%; */
+    background-color: rgb(149, 213, 255);
+  }
+  .nav-link {
+    /* width: 0%; */
+  }
+  .h1 {
+    width: 20%;
+  }
+  .card {
+    width: 200%;
+  }
+  .mainBackground::before,
+  .mainBackground::after {
+    display: none;
+  }
+  .cardRow {
+    left: 0;
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .title1 {
+    font-size: 20px;
+  }
+  .card-img-top {
+    left: 0%;
+    align-content: center;
+    width: 300%;
+    /* border: 1px solid blue; */
+  }
+  .infoTextContent {
+    text-align: center;
+    width: 400%;
+    /* border: 1px solid yellow; */
+  }
+}
