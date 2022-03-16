@@ -1,0 +1,241 @@
+* {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #fff;
+}
+.header {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+.mainbackgroundbox {
+  position: relative;
+}
+.textContent {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  color: #fff;
+  text-align: center;
+}
+* {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgb(8, 17, 100);
+  height: 100%;
+}
+.header {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+.mainbackgroundbox {
+  position: relative;
+  margin-top: -5px;
+}
+.textContent {
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* border: 1px solid red; */
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  width: 600px;
+  height: 160px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px rgba(256, 256, 256, 0.5);
+  border: 1px solid rgba(256, 256, 256, 0.5);
+  background-color: rgba(256, 256, 256, 0.1);
+  text-align: center;
+}
+.textContent h1 {
+  font-size: 51px;
+  font-family: helvetica;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.textContent p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.star1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  animation: star1 3s infinite linear;
+}
+@keyframes star1 {
+  0% {
+    top: 10%;
+    left: 10%;
+    opacity: 0.5;
+    width: 30%;
+  }
+  100% {
+    top: 30%;
+    left: 70%;
+    opacity: 1;
+    width: 10%;
+  }
+}
+.star2 {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  animation: star2 3s 0.5s infinite linear;
+}
+@keyframes star2 {
+  0% {
+    top: 10%;
+    left: 70%;
+    opacity: 1;
+    width: 30%;
+  }
+  100% {
+    top: 0%;
+    left: 20%;
+    opacity: 0.5;
+    width: 10%;
+  }
+}
+.gotoHomePageBox {
+  position: absolute;
+  padding: 50px;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2000;
+}
+
+.HomePageBtn {
+  border: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 80px;
+  border: 1px solid rgba(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 0px 20px 30px rgba(0, 118, 253, 0.534);
+  background-color: rgba(86, 67, 255, 0.9);
+  border-radius: 40px;
+}
+.HomePageBtn a {
+  /* border: 1px solid red; */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.HomePageBtn:hover a {
+  color: #fff;
+}
+.HomePageBtn:hover {
+  background-color: rgb(61, 129, 255);
+}
+h1 {
+  font-size: 40px;
+  font-weight: 1200;
+  letter-spacing: 1.2px;
+}
+.star3 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  animation: star3 6s 0.5s infinite linear;
+}
+@keyframes star3 {
+  0% {
+    top: 60%;
+    opacity: 0;
+    width: 40%;
+    left: 30%;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+    width: 20%;
+    left: 10%;
+  }
+}
+.star4 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: star4 5s infinite linear;
+  opacity: 0;
+}
+@keyframes star4 {
+  0% {
+    top: 0%;
+    opacity: 0.7;
+    width: 98%;
+  }
+  100% {
+    top: -50%;
+    opacity: 0.2;
+    width: 110%;
+  }
+}
+.imgBox {
+  width: 100%;
+}
+.imgBox::after {
+  content: "";
+  /* border: 1px solid red; */
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 58%;
+  left: 49%;
+  transform: translateX(-50%);
+  background-color: rgba(192, 188, 255, 0.589);
+  border-radius: 15px;
+  animation: appleShine 2s infinite ease;
+}
+@keyframes appleShine {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.down {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5000;
+  text-align: center;
+  color: #fff;
+  animation: down 3s infinite ease;
+  opacity: 0.2;
+  background-color: rgba(255, 255, 255, 0.157);
+}
+.down h2 {
+  font-size: 50px;
+  padding-top: 15px;
+}
+@keyframes down {
+  0% {
+    top: 22%;
+    opacity: 0.2;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    top: 30%;
+    opacity: 0.2;
+  }
+}
